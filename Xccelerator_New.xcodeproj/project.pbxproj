@@ -16,6 +16,9 @@
 		7FC860E127F0F65C006E8A6D /* Xccelerator_NewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC860E027F0F65C006E8A6D /* Xccelerator_NewTests.swift */; };
 		7FC860EB27F0F65C006E8A6D /* Xccelerator_NewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC860EA27F0F65C006E8A6D /* Xccelerator_NewUITests.swift */; };
 		7FC860ED27F0F65C006E8A6D /* Xccelerator_NewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC860EC27F0F65C006E8A6D /* Xccelerator_NewUITestsLaunchTests.swift */; };
+		C77EA77C27F11596003C672A /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77EA77B27F11596003C672A /* WelcomePageViewController.swift */; };
+		C77EA77E27F115D3003C672A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77EA77D27F115D3003C672A /* SignUpViewController.swift */; };
+		C77EA78027F1160B003C672A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77EA77F27F1160B003C672A /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		7FC860E627F0F65C006E8A6D /* Xccelerator_NewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Xccelerator_NewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC860EA27F0F65C006E8A6D /* Xccelerator_NewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xccelerator_NewUITests.swift; sourceTree = "<group>"; };
 		7FC860EC27F0F65C006E8A6D /* Xccelerator_NewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xccelerator_NewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C77EA77B27F11596003C672A /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
+		C77EA77D27F115D3003C672A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C77EA77F27F1160B003C672A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				7FC860D227F0F65C006E8A6D /* Assets.xcassets */,
 				7FC860D427F0F65C006E8A6D /* LaunchScreen.storyboard */,
 				7FC860D727F0F65C006E8A6D /* Info.plist */,
+				C77EA77B27F11596003C672A /* WelcomePageViewController.swift */,
+				C77EA77D27F115D3003C672A /* SignUpViewController.swift */,
+				C77EA77F27F1160B003C672A /* LoginViewController.swift */,
 			);
 			path = Xccelerator_New;
 			sourceTree = "<group>";
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77EA78027F1160B003C672A /* LoginViewController.swift in Sources */,
 				7FC860CE27F0F658006E8A6D /* ViewController.swift in Sources */,
 				7FC860CA27F0F658006E8A6D /* AppDelegate.swift in Sources */,
+				C77EA77C27F11596003C672A /* WelcomePageViewController.swift in Sources */,
 				7FC860CC27F0F658006E8A6D /* SceneDelegate.swift in Sources */,
+				C77EA77E27F115D3003C672A /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
