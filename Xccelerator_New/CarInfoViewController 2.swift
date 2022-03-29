@@ -1,25 +1,26 @@
 //
-//  LoginViewController.swift
+//  CarInfoViewController.swift
 //  Xccelerator_New
 //
-//  Created by Kaylah Harden on 3/27/22.
+//  Created by Sarah Mullings on 3/28/22.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class CarInfoViewController: UIViewController {
 
-    @IBOutlet weak var emailTextFeild: UITextField!
-    @IBOutlet weak var passwordTextFeild: UITextField!
-    @IBOutlet weak var loginButton: UIButton!
-    @IBOutlet weak var errorLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var colorInfoLabel: UILabel!
+    @IBOutlet weak var makeInfoLabel: UILabel!
+    @IBOutlet weak var deletePostButton: UIButton!
+    @IBAction func deletePost(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -30,6 +31,4 @@ class LoginViewController: UIViewController {
     }
     */
 
-    @IBAction func loginTapped(_ sender: Any) {
-    }
 }
