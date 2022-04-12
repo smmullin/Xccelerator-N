@@ -47,6 +47,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="yE4-YY-Lxo"/>
+                    <connections>
+                        <outlet property="loginButton" destination="TkF-lr-AfI" id="31G-LU-Mf3"/>
+                        <outlet property="signupButton" destination="ZhS-HP-nVC" id="tgv-5u-yde"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pPR-sY-XXW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,8 +82,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign Up"/>
                                 <connections>
-                                    <action selector="signupButton:" destination="bPB-AM-HSf" eventType="touchUpInside" id="Sjz-Iz-sdN"/>
-                                    <action selector="signupTapped:" destination="a0E-Mw-zRb" eventType="touchUpInside" id="nls-Pk-mdc"/>
+                                    <action selector="signupTapped:" destination="a0E-Mw-zRb" eventType="touchUpInside" id="hu6-Wp-4aH"/>
                                     <segue destination="S4a-lq-BvG" kind="show" id="18G-KQ-HcL"/>
                                 </connections>
                             </button>
@@ -118,7 +121,7 @@
                                     </textField>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Wa-DB-96I">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Wa-DB-96I">
                                 <rect key="frame" x="185" y="513" width="42" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -145,16 +148,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="Oqz-FU-CZY"/>
                     <connections>
-                        <outlet property="emailTextField" destination="uMs-iF-uEF" id="KIK-27-jTG"/>
-                        <outlet property="errorLabel" destination="9Wa-DB-96I" id="3Mg-h8-TDo"/>
-                        <outlet property="firstNameTextField" destination="bvQ-zW-dRz" id="78j-oR-Xej"/>
-                        <outlet property="lastNameTextField" destination="QDG-ah-NI5" id="tT6-oO-GyI"/>
-                        <outlet property="passwordTextFeild" destination="lX2-5U-HxO" id="gLz-p6-pp5"/>
-                        <outlet property="signupButton" destination="fLD-p1-GEQ" id="8VM-Td-1rF"/>
+                        <outlet property="emailTexrtField" destination="uMs-iF-uEF" id="USK-Hh-uxT"/>
+                        <outlet property="errorLabel" destination="9Wa-DB-96I" id="n44-6V-eXH"/>
+                        <outlet property="firstNameTextField" destination="bvQ-zW-dRz" id="aJ5-6I-h3x"/>
+                        <outlet property="lastNameTextField" destination="QDG-ah-NI5" id="Y9w-9x-AeF"/>
+                        <outlet property="passwordTextField" destination="lX2-5U-HxO" id="ckn-bo-Wyz"/>
+                        <outlet property="signupButton" destination="fLD-p1-GEQ" id="v14-O9-Jbq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iGH-WO-Yym" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="bPB-AM-HSf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="371.01449275362324" y="-283.25892857142856"/>
         </scene>
@@ -187,7 +189,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Login "/>
                                 <connections>
-                                    <action selector="loginTapped:" destination="S4a-lq-BvG" eventType="touchUpInside" id="NEM-s0-pla"/>
+                                    <action selector="loginTapped:" destination="S4a-lq-BvG" eventType="touchUpInside" id="3Um-HD-qts"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="dia-r6-Yf9"/>
                                 </connections>
                             </button>
@@ -212,11 +214,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQr-Yn-9PZ">
-                                <rect key="frame" x="186" y="534" width="38" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2W-IJ-bXh">
+                                <rect key="frame" x="186" y="477" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -225,10 +227,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="Drd-5M-jpL"/>
                     <connections>
-                        <outlet property="emailTextFeild" destination="U0x-L7-Hki" id="R5a-1I-4gh"/>
-                        <outlet property="errorLabel" destination="UQr-Yn-9PZ" id="DqS-cV-CcX"/>
-                        <outlet property="loginButton" destination="iAd-Ov-O9b" id="trU-nr-SWm"/>
-                        <outlet property="passwordTextFeild" destination="BwV-2S-4IR" id="LWy-Rh-rcN"/>
+                        <outlet property="emailTextField" destination="U0x-L7-Hki" id="Z0W-Dx-lyS"/>
+                        <outlet property="errorLabel" destination="a2W-IJ-bXh" id="yFa-Q9-fU9"/>
+                        <outlet property="loginButton" destination="iAd-Ov-O9b" id="bWR-Qw-jKL"/>
+                        <outlet property="passwordTextField" destination="BwV-2S-4IR" id="UEs-hM-4xS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z2F-q1-Cab" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -407,7 +409,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="18G-KQ-HcL"/>
+        <segue reference="Eye-0V-p99"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
